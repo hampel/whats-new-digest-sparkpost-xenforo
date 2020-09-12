@@ -1,0 +1,9 @@
+{
+    "event_id": "sparkpost_non_transactional_stop_map",
+    "execute_order": 10,
+    "callback_class": "Hampel\\WndSparkPost\\Listener",
+    "callback_method": "nonTransactionalStopMap",
+    "active": true,
+    "hint": "",
+    "description": "Add WhatsNewDigest to the stop map"
+}

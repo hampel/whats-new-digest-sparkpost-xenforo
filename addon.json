@@ -1,14 +1,27 @@
 {
     "legacy_addon_id": "",
     "title": "What's New Digest adapter for SparkPost",
-    "description": "",
+    "description": "SparkPost specific mail settings for the What's New Digest addon",
     "version_id": 1000070,
     "version_string": "1.0.0",
-    "dev": "",
-    "dev_url": "",
+    "dev": "Simon Hampel",
+    "dev_url": "https://bitbucket.org/hampel/",
     "faq_url": "",
-    "support_url": "",
-    "extra_urls": [],
-    "require": [],
-    "icon": ""
+    "support_url": "https://bitbucket.org/hampel/whats-new-digest-sparkpost-xenforo/issues",
+    "extra_urls": {
+        "Git Repository": "https://bitbucket.org/hampel/whats-new-digest-sparkpost-xenforo",
+        "Twitter": "https://twitter.com/SimonHampel",
+        "SparkPost": "https://www.sparkpost.com/"
+    },
+    "require": {
+        "php": [
+            "7.0.0",
+            "PHP 7.0+"
+        ],
+        "XF": [
+            "2010070",
+            "XenForo 2.1.0+"
+        ]
+    },
+    "icon": "sparkpost-news.png"
 }

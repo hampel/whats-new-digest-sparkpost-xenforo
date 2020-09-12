@@ -1,0 +1,6 @@
+{
+    "from_class": "Hampel\\SparkPostMail\\EmailBounce\\Processor",
+    "to_class": "Hampel\\WndSparkPost\\SparkPostMail\\EmailBounce\\Processor",
+    "execute_order": 10,
+    "active": true
+}

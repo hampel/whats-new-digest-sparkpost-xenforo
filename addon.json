@@ -21,6 +21,14 @@
         "XF": [
             "2010070",
             "XenForo 2.1.0+"
+        ],
+        "Hampel/WhatsNewDigest": [
+            "5000070",
+            "What's New Digest v5.0.0+"
+        ],
+        "Hampel/SparkPostMail": [
+            "1010070",
+            "SparkPost Mail v1.1.0+"
         ]
     },
     "icon": "sparkpost-news.png"

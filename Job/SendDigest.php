@@ -8,7 +8,21 @@ class SendDigest extends XFCP_SendDigest
 	{
 		if (EmailTransport::isSparkPostEnabled())
 		{
-			return $this->app->get('sparkpostmail')->setNonTransactional($mail);
+			$message = $mail->getMessageObject();
+
+			if ($message instanceof \Hampel\SparkPostDriver\Message)
+			{
+				// Swiftmail v6 from SparkPostMail v2
+				return $mail->setTransactional(false);
+			}
+
+			if ($message instanceof \SwiftSparkPost\Message)
+			{
+				// Swiftmail v5 from SparkPostMail v1
+				return $this->app->get('sparkpostmail')->setNonTransactional($mail);
+			}
+
+			\XF::logError("Unknown message object in Hampel\WndSparkPost\Job\SendDigest");
 		}
 
 		return parent::setUnsubscribe($mail);

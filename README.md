@@ -22,4 +22,4 @@ _or_
 More information here: [What's New Digest adapter for SparkPost](https://xenforo.com/community/resources/whats-new-digest.6596/)
 (XenForo Addon Resource)
 
-By [Simon Hampel](https://twitter.com/SimonHampel).
+By [Simon Hampel](https://xenforo.com/community/members/sim.4264/).
